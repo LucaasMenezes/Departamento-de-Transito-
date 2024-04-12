@@ -1,0 +1,18 @@
+algoritmo "DepartamentodeTransito"
+var
+   Ano_atual, Nas, Idade: Real
+inicio
+      Escreva ("Digite o ano Atual: ")
+      Leia (Ano_atual)
+      Escreva ("Digite o ano em que nasceu: ")
+      Leia(Nas)
+      Idade <- (Ano_atual - Nas)
+      EscrevaL ("Voce tem", Idade, " anos ")
+      Se (Idade > 18) entao
+         Escreva ("Voce esta apto a dirigir")
+       Senao
+      Se (Idade < 18) entao
+         Escreva ("Voce nao esta apto a dirigir")
+      FimSe
+    Fimse
+fimalgoritmo
